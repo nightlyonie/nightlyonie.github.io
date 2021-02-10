@@ -1,11 +1,9 @@
-# nightly.'s Website
+# nightly.'s Website - Testing-Branch
 
-Es ist einfach nur das GitHub-Repository zu meiner Website, damit die Website über github.io gehostet werden kann.
+---
 
-## WICHTIG: Diese Seite ist noch in Arbeit!
+Das ist einfach nur der Branch, wo ich überarbeitete Versionen der Website teste und hochlade.
 
-An einigen Stellen kann noch einiges fehlen und auch einiges falsch angezeigt werden, aber ich versuche, so schnell es geht, alles zu beheben ^^'
+Aktuell in Arbeit: Rewrite der Website, damit ich es zukünftig deutlich einfacher habe, Inhalte zur Website hinzuzufügen.
 
-Damit du ungefähr weißt, was noch in Arbeit ist:
-
-- ein richtig funktionierender Dark Style / Dark Mode
+Falls du den Main-Branch suchst, klicke einfach [hier](https://github.com/nightlyonie/nightlyonie.github.io).

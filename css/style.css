@@ -1,0 +1,108 @@
+:root {
+  /* Eigenschaften für die Titelkarte */
+  --title-header: url("https://chaos.social/system/accounts/headers/000/315/892/original/8e96b21ea07b7ea6.png");
+  --title-pfp: url("https://chaos.social/system/accounts/avatars/000/315/892/original/ada5809b7990177a.png");
+  
+  /* Eigenschaften für die Website allgemein */
+  --website-bg: url(""); 
+  --website-accentcolor: ""; /* wird vielleicht implementiert */
+}
+
+@media (prefers-color-scheme: dark) {
+  .cards.dark-scheme { background: black; color: white; };
+  .links.dark-scheme {                    color: white; };
+}
+
+/* Debugging Stuff */
+#CenteredLine50 {
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  height: 100%;
+  width: 0px;
+  border: 1px solid red;
+}
+
+body {
+  font-family: "SF Pro Display", "Roboto", "Piboto", "Arial", "Helvetica", sans-serif;
+  font-size: 16px;
+}
+
+.Cards {
+  width: 570px;
+  box-shadow: 2px 2px 15px #444444;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.Title {
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 550;
+}
+
+.smolTitle {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.smolText {
+  font-size: 14px;
+}
+
+.InitialCenter {
+  margin-top: 100px !important;
+}
+
+.CenterDIV {
+  margin: 0px;
+  margin-top: 25px;
+  padding: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#TitleCard {
+  height: calc(200px + 53px + 60px);
+}
+
+#TitleHeader {
+  background-image: var(--title-header);
+  background-size: cover;
+  position: relative;
+  left: -15px;
+  top: -15px;
+  width: 600px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+#TitleProfilePicture {
+  background-image: var(--title-pfp);
+  background-size: cover;
+  position: relative;
+  left: calc(50% - 53px);
+  top: -48px;
+  width: 100px;
+  height: 100px;
+  border: 3px solid white;
+  border-radius: 53px;
+}
+
+#TitleName {
+  position: relative;
+  top: -35px;
+}
+
+#InvisiblePlaceholderCard {
+  background-color: #00000000;
+  color: #00000000;
+  box-shadow: none !important;
+  margin-bottom: 50px;
+}
